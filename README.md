@@ -1,7 +1,7 @@
 # Multilanguage-color-blindness-and-eye-diseases-back-end-laravel-
 This site offers many services for people with color blindness and eye diseases(Multilingual in Arabic and English)
 Open your XAMPP/WAMP's Control Panel and start the "Apache" and "MySQL".
-and run app.py in folder chatbot machine then run front-end
+and run app.py in folder chatbot machine then run full project
 
 
 ![image](https://github.com/OmniaEl-Sheikh/Multilanguage-color-blindness-and-eye-diseases-front-end/assets/92062597/79e0a748-49df-4b12-9442-c40331e1511c)
@@ -19,3 +19,6 @@ and run app.py in folder chatbot machine then run front-end
 
 =====================================================================================
 ![image](https://github.com/OmniaEl-Sheikh/Multilanguage-color-blindness-and-eye-diseases-front-end/assets/92062597/08a187dd-0a4f-4c6b-a31f-9a962be45f84)
+
+
+![15](https://github.com/OmniaEl-Sheikh/Multilanguage-color-blindness-and-eye-diseases-back-end-laravel-/assets/92062597/6af66ad2-bb16-4916-81d8-688532b0473d)
