@@ -1,0 +1,682 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+
+    {
+        "tag": "Identification",
+        "patterns": [
+          "Who are you"
+        ],
+        "responses": [
+          "Hi i'm chatbot for color blindness and eye diseases for helping you with many sevices<br>How can i help you"
+        ]
+      },
+      {
+        "tag": "Services",
+        "patterns": [
+          "What services you offer?",
+          "services",
+          "what kind of services you have"
+        ],
+        "responses": [
+          "we have alot of services like <br/><b>Color blindness test <br/><b>Identifing the color by entering an image <br/><b>Color recognition using a video camera <br/><b>Color focus game <br/><b>Diagnosis of eye diseases <br/><b>Make an appointment <br/><b>Basic chatbot<br/><b>"
+        ]
+      },
+
+      {
+        "tag": "Color blindness test",
+        "patterns": [
+          "Color blindness test",
+          "i want to do color blindness test",
+          "i want to go to color blindness test"
+        ],
+        "responses": [
+          "you should go to HOME>SERVICES> Color blindness test"
+        ]
+      },
+
+      {
+        "tag": "Identifing the color by entering an image",
+        "patterns": [
+          "Identifing the color by entering an image",
+          "i want to do Identifing the color by entering an image",
+          "i want to go to Identifing the color by entering an image"
+        ],
+        "responses": [
+          "you should go to HOME>SERVICES> Identifing the color by entering an image"
+        ]
+      },
+
+
+      {
+        "tag": "Color recognition using a video camera",
+        "patterns": [
+          "Color recognition using a video camera",
+          "i want to do Color recognition using a video camera",
+          "i want to go to Color recognition using a video camera"
+        ],
+        "responses": [
+          "you should go to HOME>SERVICES> Color recognition using a video camera"
+        ]
+      },
+
+
+
+      {
+        "tag": "Color focus game",
+        "patterns": [
+          "Color focus game",
+          "i want to do Color focus game",
+          "i want to go to Color focus game"
+        ],
+        "responses": [
+          "you should go to HOME>SERVICES> Color focus game"
+        ]
+      },
+
+
+      {
+        "tag": "Diagnosis of eye diseases",
+        "patterns": [
+          "Diagnosis of eye diseases",
+          "i want to do Diagnosis of eye diseases",
+          "i want to go to Diagnosis of eye diseases"
+        ],
+        "responses": [
+          "you should go to HOME>SERVICES> Diagnosis of eye diseases"
+        ]
+      },
+
+
+
+      {
+        "tag": "Make an appointment",
+        "patterns": [
+          "Make an appointment",
+          "i want to do Make an appointment",
+          "i want to go to Make an appointment"
+        ],
+        "responses": [
+          "you should go to HOME>SERVICES> Make an appointment"
+        ]
+      },
+
+
+      {
+        "tag": "Babic chatbot",
+        "patterns": [
+          "Basic chatbot",
+          "i want to do Basic chatbot",
+          "i want to go to Basic chatbot"
+        ],
+        "responses": [
+          "you should go to HOME>SERVICES> Basic chatbot"
+        ]
+      },
+
+      {
+        "tag": "Color blindness",
+        "patterns": [
+          "Color blindness",
+          "What's the Color blindness"
+        ],
+        "responses": [
+          "Color blindness occurs when you are unable to see colors in a normal way. It is also known as color deficiency. Color blindness often happens when someone cannot distinguish between certain colors. This usually happens between greens and reds, and occasionally blues"
+        ]
+      },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?"
+      ],
+      "responses": [
+        "color blindness and eye diseases services"
+        
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+   
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "Cataract disease",
+      "patterns": [
+        "Gradual visual impairment without pain",
+        "Frequent change of glasses or contact lenses",
+        "The color of the lens of the eye gradually changes to white or brown",
+        "Blurry vision",
+        "fog"
+      ],
+      "responses": [
+        "There is a possibility that you have <b>Cataract</b> please see an ophthalmologist"
+      ]
+    },
+    {
+      "tag": "Glaucoma disease",
+      "patterns": [
+        "Gradual appearance of isolated blind spots in the lateral field of vision",
+        "Difficulty seeing objects in the field of central vision",
+        "Severe headache",
+        "severe eye pain",
+        "Nausea or vomiting",
+        "Blurred vision",
+        "Seeing colored halos or rings around lights",
+        "Glaucoma with normal eye pressure",
+        "Blurred vision appears gradually",
+        "loss of side vision"
+      ],
+      "responses": [
+        "There is a possibility that you have <b>Glaucoma</b> please see an ophthalmologist"
+      ]
+    },
+
+    {
+      "tag": "Dry eye disease",
+      "patterns": [
+        "Stinging, burning or roughness in the eyes",
+        "Sticky pus in or around the eyes",
+        "Sensation of having something in the eyes",
+        "Difficulty wearing contact lenses",
+        "Difficulty driving at night",
+        "Watery eyes",
+        "Cloudy vision and eye fatigue"
+        
+      ],
+      "responses": [
+        "There is a possibility that you have <b>Dry eye</b> please see an ophthalmologist"
+      ]
+    },
+
+
+
+    {
+      "tag": "Keratoconus disease",
+      "patterns": [
+        "Weakness of the cornea",
+        "Frequent rubbing of the eye",
+        "Rapid deterioration of vision",
+        "Low vision and the need to change glasses continuously"
+      ],
+      "responses": [
+        "There is a possibility that you have <b>Keratoconus</b> please see an ophthalmologist"
+      ]
+    },
+    
+    {
+      "tag": "Keratitis disease",
+      "patterns": [
+      
+      "eye pain",
+      "Excessive tearing or other secretions from the eyes",
+      "Difficulty opening the eyelid due to pain or irritation",
+      "Blurred vision",
+      "decreased vision",
+      "Feeling as if there is something in your eye"
+
+      ],
+      "responses": [
+        "There is a possibility that you have <b>Keratitis</b> please see an ophthalmologist"
+      ]
+    },
+
+    {
+      "tag": "Retinal detachment disease",
+      "patterns": [
+      
+        "The sudden appearance of floaters on your eye",
+       "Flashes of light",
+        "Blurred vision",
+        "Side vision gradually decreases",
+        "The appearance of shadow in the field of vision"
+        
+
+      ],
+      "responses": [
+        "There is a possibility that you have <b>Retinal detachment</b> please see an ophthalmologist"
+      ]
+    },
+    {
+    "tag": "Cataract,Dry eye,Glaucoma,keratoconus,Keratitis",
+      "patterns": [
+      
+        "sensitivity to light",
+        "Eye redness"
+        ],
+      "responses": [
+        "There is a possibility that you have <b>Cataract,Dry eye,Glaucoma,keratoconus,Keratitis</b> please see an ophthalmologist"
+      ]
+    },
+
+    {
+      "tag": "Cataract",
+      "patterns": [
+        "Cataract disease",
+        "I would like to inquire about cataract disease",
+        "I suffer from cataract disease"
+      ],
+      "responses": [
+        "Please choose what you want.</br><b>Cataract Symptoms</b> <br/><b>Cataract Risk factors</b> <br/><b>Cataract Diagnosis</b> <br/><b>Cataract Treatment</b> <br/><b>Cataract Protection</b> <br/>"
+      ]
+    },
+    {
+      "tag": "Cataract symptoms",
+      "patterns": [
+        "Cataract symptoms ",
+        "I would like to inquire about cataract symptoms"
+        
+      ],
+      "responses": ["<b> Cataract Symptoms: </b><br/>Gradual visual impairment without pain.<br/> Frequent change of glasses or contact lenses.<br/> The color of the lens of the eye gradually changes to white or brown in advanced cases.<br/> Blurry vision (fog).<br/> Sensitivity to lights.<br/> Difficulty seeing at night.<br/> Seeing halos around light sources.<br/> Yellowing of colors.<br/> Difficulty reading and distinguishing faces.<br/>"
+      ]
+    },
+    {
+      "tag": "Cataract Risk factors",
+      "patterns": [
+        "Cataract Risk factors",
+        "I would like to inquire about cataract Risk factors"
+        
+      ],
+      "responses": [" Getting old.<br/> Exposure to sunlight (UV rays).<br/> Exposure to a blow or injury to the eye.<br/> Having diabetes.<br/> Having high blood pressure.<br/> Some medicines, the most important of which is cortisone.<br/> Prior exposure to blind eyes.<br/> Smoking.<br/>"
+    
+    ]
+    },
+    {
+      "tag": "Cataract Diagnosis",
+      "patterns": [
+        "Cataract Diagnosis",
+        "I would like to inquire about cataract Diagnosis"
+        
+      ],
+      "responses": ["1.Clinical examination.<br/>2.Medical history.<br/>undergo some tests<br/>1.Visual acuity measurement.<br/>2.Evaluation of the lens and retina of the eye.<br/>3.Intraocular pressure measurement.<br/>4.Fundoscopy.<br/>5.seeing a red light reflection; As its absence means the presence of opacity.<br/>"
+      ]
+    },
+    {
+      "tag": "Cataract Treatment",
+      "patterns": [
+        "Cataract Treatment",
+        "I would like to inquire about cataract Treatment"
+        
+      ],
+      "responses": ["The only treatment for it is surgical intervention.<br/> One of the most important surgical interventions is the removal of the lens affected by the cataract and replacing it with the implantation of another new lens that lasts a lifetime. This process has different methods in different cases."
+      ]
+    },
+    {
+      "tag": "Cataract Protection",
+      "patterns": [
+        "Cataract Protection",
+        "I would like to inquire about cataract Protection"
+        
+      ],
+      "responses": [" Have regular eye exams.<br/> Quit Smoking.<br/> Follow the treatment plan for health problems such as: diabetes, and others.<br/> Choose a healthy diet that contains vitamins and antioxidants.<br/> Wear sunglasses that block ultraviolet rays."
+      ]
+    },
+
+    {
+      "tag": "Glaucoma",
+      "patterns": [
+        "Glaucoma disease",
+        "I would like to inquire about Glaucoma disease",
+        "I suffer from Glaucoma disease"
+      ],
+      "responses": [
+        "Please choose what you want.</br><b>Glaucoma Symptoms</b> <br/><b>Glaucoma Risk factors</b> <br/><b>Glaucoma Diagnosis</b> <br/><b>Glaucoma Treatment</b> <br/><b>Glaucoma Protection</b> <br/>"
+      ]
+    },
+
+    {
+      "tag": "Glaucoma symptoms",
+      "patterns": [
+        "Glaucoma symptoms ",
+        "I would like to inquire about Glaucoma symptoms"
+        
+      ],
+      "responses": [" No symptoms appear in the early stages.<br/> Gradual appearance of isolated blind spots in the lateral field of vision.<br/> The lateral field of vision is also called peripheral vision.<br/> Difficulty seeing objects in the field of central vision.<br/> Severe headache.<br/> severe eye pain.<br/> Nausea or vomiting.<br/> Blurred vision.<br/> Seeing colored halos or rings around lights.<br/> Eye redness.<br/> Glaucoma with normal eye pressure.<br/> No symptoms appear in the early stages.<br/> Blurred vision appears gradually.<br/> In the later stages, loss of side vision.<br/>"
+      ]
+    },
+
+    {
+      "tag": "Glaucoma Risk factors",
+      "patterns": [
+        "Glaucoma Risk factors",
+        "I would like to inquire about Glaucoma Risk factors"
+        
+      ],
+      "responses": [" Increased intraocular pressure.<br/> Over the age of 55 years.<br/> Black, Asian or Hispanic descent.<br/> Presence of previous glaucoma injuries in the family.<br/> Infection with certain diseases such as diabetes, migraines, high blood pressure, and sickle cell anemia.<br/> Thinning of the cornea from the middle.<br/> severe nearsightedness or farsightedness.<br/> Injury to the eye and some types of eye operations.<br/> Taking corticosteroids, especially eye drops, for a long time.<br/>"
+    
+    ]
+    },
+    {
+      "tag": "Glaucoma Diagnosis",
+      "patterns": [
+        "Glaucoma Diagnosis",
+        "I would like to inquire about Glaucoma Diagnosis"
+        
+      ],
+      "responses": [" Damage to the optic nerve and deterioration of its condition.<br/> Blind spots in the field of vision due to high intraocular pressure.<br/> Prominence of the iris.<br/> Increased eye pressure.<br/>"
+      ]
+    },
+
+    {
+      "tag": "Glaucoma Treatment",
+      "patterns": [
+        "Glaucoma Treatment",
+        "I would like to inquire about Glaucoma Treatment"
+        
+      ],
+      "responses": ["The damage caused by glaucoma can't be reversed. But treatment and regular checkups can help slow or prevent vision loss, especially if you catch the disease in its early stages.<br/>Glaucoma is treated by lowering intraocular pressure. Treatment options include prescription eye drops, oral medicines, laser treatment, surgery or a combination of approaches.<br/>"
+      ]
+    },
+    {
+      "tag": "Glaucoma Protection",
+      "patterns": [
+        "Glaucoma Protection",
+        "I would like to inquire about Glaucoma Protection"
+        
+      ],
+      "responses": [" Examination of eyes regularly.<br/> Wear eye protection.<br/> Use prescribed eye drops regularly.<br/>"
+      ]
+    },
+    {
+      "tag": "Dry eye",
+      "patterns": [
+        "Dry eye disease",
+        "I would like to inquire about Dry eye disease",
+        "I suffer from Dry eye disease"
+      ],
+      "responses": [
+        "Please choose what you want.</br><b>Dry eye Symptoms</b> <br/><b>Dry eye Risk factors</b> <br/><b>Dry eye Diagnosis</b> <br/><b>Dry eye Treatment</b> <br/><b>Dry eye Protection</b> <br/>"
+      ]
+    },
+
+    {
+      "tag": "Dry eye symptoms",
+      "patterns": [
+        "Dry eye symptoms ",
+        "I would like to inquire about Dry eye symptoms"
+      ],
+      "responses": [" Stinging, burning or roughness in the eyes.<br/> Sticky pus in or around the eyes.<br/> sensitivity to light.<br/> Eye redness.<br/> Sensation of having something in the eyes.<br/> Difficulty wearing contact lenses.<br/> Difficulty driving at night.<br/> Watery eyes, The body's response to irritation is dry eyes.<br/> Cloudy vision and eye fatigue.<br/>"
+      ]
+    },
+
+    {
+      "tag": "Dry eye Risk factors",
+      "patterns": [
+        "Dry eye Risk factors",
+        "I would like to inquire about Dry eye Risk factors"
+        
+      ],
+      "responses": [" getting older.<br/> Follow a diet that is low in vitamin A.<br/> Wear contact lenses.<br/> Performing eye refractive surgery.<br/>"
+    
+    ]
+    },
+    {
+      "tag": "Dry eye Diagnosis",
+      "patterns": [
+        "Dry eye Diagnosis",
+        "I would like to inquire about Dry eye Diagnosis"
+        
+      ],
+      "responses": [" Lacrimal membrane defect.<br/> Decreased secretion of tears.<br/> Advance in age.<br/> Decreased sensitivity of the village nerve caused by the use of contact lenses.<br/> Nerve damage or laser eye surgery.<br/>"
+      ]
+    },
+
+    {
+      "tag": "Dry eye Treatment",
+      "patterns": [
+        "Dry eye Treatment",
+        "I would like to inquire about Dry eye Treatment"
+        
+      ],
+      "responses": ["1.clean your eyelids every day.<br/>2.take breaks to rest your eyes when using a computer screen.<br/>3.make sure your computer screen is just below eye level.<br/>4.use a humidifier to stop the air getting dry.<br/>5.if you wear contact lenses, take them out and wear glasses to rest your eyes.<br/>"
+      ]
+    },
+    {
+      "tag": "Dry eye Protection",
+      "patterns": [
+        "Dry eye Protection",
+        "I would like to inquire about Dry eye Protection"
+        
+      ],
+      "responses": [" Avoid directing the air into your eyes.<br/> Wear sunglasses.<br/> Put the computer screen in a position lower than the level of your eyes.<br/> Quit smoking if you smoke.<br/> Use of artificial tears.<br/>"
+      ]
+    },
+
+    {
+      "tag": "Keratoconus",
+      "patterns": [
+        "Keratoconus disease",
+        "I would like to inquire about Keratoconus disease",
+        "I suffer from Keratoconus disease"
+      ],
+      "responses": [
+        "Please choose what you want.</br><b>Keratoconus Symptoms</b> <br/><b>Keratoconus Risk factors</b> <br/><b>Keratoconus Diagnosis</b> <br/><b>Keratoconus Treatment</b> <br/><b>Keratoconus Protection</b> <br/>"
+      ]
+    },
+
+    {
+      "tag": "Keratoconus symptoms",
+      "patterns": [
+        "Keratoconus symptoms ",
+        "I would like to inquire about Keratoconus symptoms"
+      ],
+      "responses": [" Weakness of the cornea, which leads to its emergence.<br/> Frequent rubbing of the eye affects the integrity of the cornea.<br/> Rapid deterioration of vision that may lead to loss.<br/> Low vision and the need to change glasses continuously in the early stages.<br/> Inability to tolerate light.<br/>"
+      ]
+    },
+
+    {
+      "tag": "Keratoconus Diagnosis",
+      "patterns": [
+        "Keratoconus Diagnosis",
+        "I would like to inquire about Keratoconus Diagnosis"
+        
+      ],
+      "responses": [" Examine the refraction of light to determine the appropriate lens size for vision correction.<br/> Measurement of the curvature of the cornea.<br/> Imaging of the cornea to identify the affected areas.<br/> Measurement of corneal thickness.<br/>"
+      ]
+    },
+
+    {
+      "tag": "Keratoconus Treatment",
+      "patterns": [
+        "Keratoconus Treatment",
+        "I would like to inquire about Keratoconus Treatment"
+        
+      ],
+      "responses": [" In the early stages, the focus is on correcting vision by using medical glasses or soft contact lenses.<br/> When the condition of vision worsens, oxygen permeable contact lenses (hard lenses) are used.<br/> In the advanced stages, surgical operations (corneal transplantation) are performed.<br/>"
+      ]
+    },
+    {
+      "tag": "Dry eye Protection",
+      "patterns": [
+        "Dry eye Protection",
+        "I would like to inquire about Dry eye Protection"
+        
+      ],
+      "responses": [" Regular eye examination.<br/> Avoid rubbing the eye.<br/> Follow the doctor's instructions and inform him of the development of the situation as soon as possible.<br/> Avoid using any medicine not prescribed by the doctor.<br/> Pay attention to eye hygiene.<br/> Avoid anything that irritates the eyes.<br/> Protect eyes while swimming and playing sports.<br/>"
+      ]
+    },
+    {
+      "tag": "Keratitis",
+      "patterns": [
+        "Keratitis disease",
+        "I would like to inquire about Keratitis disease",
+        "I suffer from Keratitis disease"
+      ],
+      "responses": [
+        "Please choose what you want.</br><b>Keratitis Symptoms</b> <br/><b>Keratitis Risk factors</b> <br/><b>Keratitis Diagnosis</b> <br/><b>Keratitis Treatment</b> <br/><b>Keratitis Protection</b> <br/>"
+      ]
+    },
+
+    {
+      "tag": "Keratitis symptoms",
+      "patterns": [
+        "Keratitis symptoms ",
+        "I would like to inquire about Keratitis symptoms"
+      ],
+      "responses": [" eye redness.<br/> eye pain.<br/> Excessive tearing or other secretions from the eyes.<br/> Difficulty opening the eyelid due to pain or irritation.<br/> Blurred vision.<br/> decreased vision.<br/>"
+      ]
+    },
+
+    {
+      "tag": "Keratitis Risk factors",
+      "patterns": [
+        "Keratitis Risk factors",
+        "I would like to inquire about Keratitis Risk factors"
+        
+      ],
+      "responses": [" contact lenses.<br/> Low immunity.<br/> Corticosteroids.<br/> Injury to the eye.<br/>"
+    
+    ]
+    },
+    {
+      "tag": "Keratitis Diagnosis",
+      "patterns": [
+        "Keratitis Diagnosis",
+        "I would like to inquire about Keratitis Diagnosis"
+        
+      ],
+      "responses": [" Exposure to wounds in the eye.<br/> Bacteria, fungi or parasites.<br/> viruses.<br/> Contaminated water.<br/>"
+      ]
+    },
+
+    {
+      "tag": "Keratitis Treatment",
+      "patterns": [
+        "Keratitis Treatment",
+        "I would like to inquire about Keratitis Treatment"
+        
+      ],
+      "responses": ["Treatment of noninfectious keratitis varies depending on the severity. For example, with mild discomfort from a corneal scratch, artificial tear drops may be the only treatment. However, if keratitis is causing significant tearing and pain, topical eye medications may be necessary."
+      ]
+    },
+    {
+      "tag": "Keratitis Protection",
+      "patterns": [
+        "Keratitis Protection",
+        "I would like to inquire about Keratitis Protection"
+        
+      ],
+      "responses": [" Care of contact lenses.<br/> Prevention of virus outbreaks.<br/>"
+      ]
+    },
+
+
+    {
+      "tag": "Retinal detachment",
+      "patterns": [
+        "Retinal detachment disease",
+        "I would like to inquire about Retinal detachment disease",
+        "I suffer from Retinal detachment disease"
+      ],
+      "responses": [
+        "Please choose what you want.</br><b>Retinal detachment Symptoms</b> <br/><b>Retinal detachment Risk factors</b> <br/><b>Retinal detachment Diagnosis</b> <br/><b>Retinal detachment Treatment</b> <br/><b>Retinal detachment Protection</b> <br/>"
+      ]
+    },
+
+    {
+      "tag": "Retinal detachment symptoms",
+      "patterns": [
+        "Retinal detachment symptoms ",
+        "I would like to inquire about Retinal detachment symptoms"
+      ],
+      "responses": [" The sudden appearance of floaters, which are tiny objects that appear to float in your field of vision.<br/> Flashes of light in one or both eyes (photopsia).<br/> Blurred vision.<br/> Side (peripheral) vision gradually decreases.<br/> The appearance of a curtain-like shadow in the field of vision.<br/>"
+      ]
+    },
+
+    {
+      "tag": "Retinal detachment Risk factors",
+      "patterns": [
+        "Retinal detachment Risk factors",
+        "I would like to inquire about Retinal detachment Risk factors"
+        
+      ],
+      "responses": [" Aging.<br/> Excessive nearsightedness (myopia).<br/> Previous eye surgery, such as cataract removal.<br/> Previous acute eye injury.<br/> Other previous diseases or disorders of the eye.<br/>"
+    
+    ]
+    },
+    {
+      "tag": "Retinal detachment Diagnosis",
+      "patterns": [
+        "Retinal detachment Diagnosis",
+        "I would like to inquire about Retinal detachment Diagnosis"
+        
+      ],
+      "responses": [" A hole or tear in the retina.<br/> Detachment of the tissue that lies below the retina.<br/> Advance in age.<br/>"
+      ]
+    },
+
+    {
+      "tag": "Retinal detachment Treatment",
+      "patterns": [
+        "Retinal detachment Treatment",
+        "I would like to inquire about Retinal detachment Treatment"
+        
+      ],
+      "responses": [" laser surgery.<br/> Cryosynthesis (cryofixation of the retina).<br/>"
+      ]
+    },
+    {
+      "tag": "Retinal detachment Protection",
+      "patterns": [
+        "Retinal detachment Protection",
+        "I would like to inquire about Retinal detachment Protection"
+        
+      ],
+      "responses": ["If you experience any symptoms of retinal detachment, go to your eye doctor or the emergency room right away. Early treatment can help prevent permanent vision loss.<br/>It’s also important to get comprehensive dilated eye exams regularly. A dilated eye exam can help your eye doctor find a small retinal tear or detachment early, before it starts to affect your vision.<br/>"
+      ]
+    }
+
+  ]
+}
