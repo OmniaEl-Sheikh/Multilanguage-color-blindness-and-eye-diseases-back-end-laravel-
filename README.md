@@ -21,4 +21,4 @@ and run app.py in folder chatbot machine then run full project
 ![image](https://github.com/OmniaEl-Sheikh/Multilanguage-color-blindness-and-eye-diseases-front-end/assets/92062597/08a187dd-0a4f-4c6b-a31f-9a962be45f84)
 
 
-![15](https://github.com/OmniaEl-Sheikh/Multilanguage-color-blindness-and-eye-diseases-back-end-laravel-/assets/92062597/6af66ad2-bb16-4916-81d8-688532b0473d)
+![4](https://github.com/OmniaEl-Sheikh/Multilanguage-color-blindness-and-eye-diseases-back-end-laravel-/assets/92062597/f8d12d9b-20a4-4fd4-b81f-d7307d813cef)
